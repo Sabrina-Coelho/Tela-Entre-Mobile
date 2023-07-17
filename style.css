@@ -1,0 +1,135 @@
+@media screen and (max-width: 767px) {
+    .diagonal-box {
+        background-image: linear-gradient(#0575e6, #02298a);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1000.04px;
+        height: 400.81px;
+        transform-origin: top left;
+        transform: translate(-50%, -50%) skewY(-5deg);
+    }
+    
+    .content {
+        max-width: 50em;
+        margin: 0 auto;
+        transform: skewY(5deg);
+    }
+    
+    .titulo {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: flex-start;
+        margin-left: 425px;
+        margin-top: 290px;
+        margin-bottom: -5px;
+    }
+    
+    .subtitulo {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-top: 0px;
+        text-align: flex-start;
+        margin-left: 425px;
+    }
+    
+    .login {
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: #333333;
+        margin-left: 30px;
+        margin-top: 250px;
+        font-size: 26px;
+    }
+    
+    .cadastrisso {
+        color: #0575e6;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .entre {
+        color: #333333;
+        font-family: 'Poppins';
+        font-weight: 500;
+        margin-right: -5px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .container {
+        display: flex;
+        gap: 10px;
+        margin-top: -35px;
+        margin-left: 30px;
+    }
+    
+    .entrar {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #FFFFFF;
+        background-color: #0575e6;
+        border-radius: 30px;
+        width: 307px;
+        height: 60px;
+    }
+    
+    form input {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #333333;
+        opacity: 30%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    form {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .email {
+        background-image: url(email.png);
+        background-position: 15px center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        padding-left: 50px; 
+        border-radius: 30px;
+        width: 250px;
+        height: 57px;
+    }
+    
+    .senha {
+        background-image: url(senha.png);
+        background-position: 20px center;
+        background-repeat: no-repeat;
+        background-size: 18px;
+        padding-left: 50px;
+        border-radius: 30px;
+        width: 250px;
+        height: 57px;
+        margin-top: 5px;
+    }
+    
+    a {
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #333333;
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    
+    
+}
